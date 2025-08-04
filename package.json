@@ -1,5 +1,5 @@
 {
-  "name": "@write-with-laika/drama-engine",
+  "name": "@write-with-laika-entry-fixed/drama-engine",
   "version": "1.6.3",
   "description": "A framework for narrative agents",
   "main": "dist/index.js",
