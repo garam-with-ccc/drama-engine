@@ -1,24 +1,39 @@
-export { Chat } from './chat';
-export type { ChatMessage, ChatSpeakerSelection } from './chat';
+export { Chat } from "./chat";
+export type { ChatMessage, ChatSpeakerSelection } from "./chat";
 export { AutoCompanion } from "./companions/auto-companion";
 export type { CompanionReply } from "./companions/auto-companion";
 export { ChatCompanion } from "./companions/chat-companion";
 export { Companion, TriggerOperation } from "./companions/companion";
-export type { CompanionConfig, CompanionKind, CompanionScope, CompanionState } from "./companions/companion";
+export type {
+  CompanionConfig,
+  CompanionKind,
+  CompanionScope,
+  CompanionState,
+} from "./companions/companion";
 export { Deputy } from "./companions/deputy";
 export { InstructionDeputy } from "./companions/instruction-deputy";
+export { ModeratorDeputy } from "./companions/moderator-deputy";
 export { TestDeputy } from "./companions/test-deputy";
 export type { Category, Condition, ConditionalLine, Tag } from "./conditions";
 export { defaultModelConfig } from "./config/models";
 export type { ModelConfig } from "./config/models";
 export { defaultPromptConfig, defaultPromptTemplates } from "./config/prompts";
 export { Context } from "./context";
-export type { ContextData, ContextDataTypes, ContextDecorator } from "./context";
-export type { ChatRecord, HistoryRecord, KeyValueRecord, PromptRecord, StateTypes } from "./db/database";
-export { Database } from './db/database';
-export { InMemoryDatabase } from './db/in-memory-database';
-export { Drama } from './drama';
+export type {
+  ContextData,
+  ContextDataTypes,
+  ContextDecorator,
+} from "./context";
+export type {
+  ChatRecord,
+  HistoryRecord,
+  KeyValueRecord,
+  PromptRecord,
+  StateTypes,
+} from "./db/database";
+export { Database } from "./db/database";
+export { InMemoryDatabase } from "./db/in-memory-database";
+export { Drama } from "./drama";
 export type { Job, JobStatus } from "./job";
 export { Model, ModelError } from "./model";
 export { getRandomElement, randomArrayElement } from "./utils/array-utils";
-

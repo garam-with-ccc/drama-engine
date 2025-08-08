@@ -1607,6 +1607,7 @@ export {
   InstructionDeputy,
   Model,
   ModelError,
+  ModeratorDeputy,
   TestDeputy,
   defaultModelConfig,
   defaultPromptConfig,
